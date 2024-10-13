@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 80px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 167, 197);
+}
+/* .container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+} */
+article{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/* @media(min-width: 800px){
+    article{
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }   
+} */
+article > h2{
+    background-color: lightpink;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5;
+    margin-bottom: 0;
+    font-size: 28px;
+    margin: -10px;
+}
+article > div{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+article > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+article > ul > li {
+    text-align: center;
+}
+article > footer {
+    text-align: center;
+}
+#planos{
+    padding: 80px 0;
+}
+#planos::after{
+    content: "";
+    clear: both;
+}
+.botao{
+    display: inline-block;
+    background-color: lightpink;
+    color: #3a0235;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: plum;
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.botao:focus{
+    background-color: violet;
+}

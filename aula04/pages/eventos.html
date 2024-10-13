@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div {
+      width: 150px;
+      height: 150px;
+      border: 1px solid #256;
+    }
+  </style>
+  <body>
+    <div
+      id="caixa"
+      onmouseover="alterarCor(this, 'red')"
+      onmouseout="alterarCor(this,'#fff')"
+    ></div>
+      <button
+        onclick="alert('Você clicou aqui')"
+        onmouseout="alterarCor(document.getElementById('caixa'), 'gray')"
+      >
+        Enviar
+      </button>
+    
+    <script>
+      function alterarCor(obj, cor) {
+        obj.style.backgroundColor = cor;
+      }
+    </script>
+  </body>
+</html>

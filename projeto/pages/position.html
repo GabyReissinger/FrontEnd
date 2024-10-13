@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        main {
+            position: relative;
+            background-color: lightblue;
+            margin: 1.5rem 1rem;
+            padding: 1rem 2.5rem;
+        }
+       div {
+        font-size: 1.25rem;
+        padding: 1rem 1.5rem;
+       }
+       .static {
+           position: static;
+            background-color: rgb(24, 128, 192);
+        }
+        .relative{
+            position: relative;
+            top: -30px;
+            width: 50%;
+            margin: 0 auto;
+            background-color: rgb(40, 132, 163);
+
+        }
+        .absolute{
+            position: absolute;
+            background-color: rgb(29, 153, 194);
+            top: 0;
+            right: 0;
+        }
+        .fixed{
+            position: fixed;
+            background-color: rgb(33, 118, 192);
+            right: 64px;
+            bottom: 64px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Menu principal</h1>
+        <div class="static">
+            <p>Elemento Estático</p>
+        </div>
+        <div class="relative">
+            <p>Elemento Relativo</p>
+        </div>
+        <div class="absolute">
+            <p>Elemento Absoluto</p>
+        </div>
+        <div class="fixed">
+            <p>Elemento Fixo</p>
+        </div>
+    </main>
+</body>
+</html>

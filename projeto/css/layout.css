@@ -1,0 +1,37 @@
+.layout-cabecalho {
+  line-height: 90px;
+  height: 80px;
+  border: 1px solid #ccc;
+  background-color: rgb(191, 150, 230);
+}
+.layout-cabecalho--position {
+  background-color: rgb(191, 150, 230);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.layout-planos {
+  padding: 80px 0;
+}
+@media (max-width: 768px) {
+  .layout-planos .row > div:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+.layout-principal {
+  padding: 80px 0;
+  background-color: rgb(255, 231, 249);
+}
+.layout-depoimento {
+  padding: 80px 0;
+  background-color: rgb(204, 180, 198);
+}
+.layout-rodape {
+  padding: 40px 0;
+  background-color: rgb(191, 150, 230);
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}

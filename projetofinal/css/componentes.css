@@ -1,0 +1,51 @@
+.linhaTempo {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .jogo {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .jogo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .anoLancamento{
+    margin: 10px 0;
+    color: #bd2828;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+.jogo h3{
+    margin: 10px 0;
+    color: brown;
+}
+  
+  .jogo p {
+    margin: 10px 0;
+    font-size: 1.3em;
+    color: #000000;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    .jogo {
+      padding: 10px;
+    }
+  
+    .jogo p {
+      font-size: 0.9em;
+    }
+  }
+  

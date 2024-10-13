@@ -1,0 +1,30 @@
+/*link não visitado */
+.meu-link:link{
+    color: green;
+}
+
+/*link visitado */
+.meu-link:visited{
+    color: purple;
+}
+.meu-link:hover{
+    color: orange;
+}
+.disciplinas{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+.disciplinas li{
+    color: blue;
+    border-bottom: 2px solid lightcoral;
+    padding-bottom: 5px;
+}
+.disciplinas li:first-child{
+    color: orange;
+}
+.disciplinas li:last-child{
+    color: red;
+}

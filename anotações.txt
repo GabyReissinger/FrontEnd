@@ -1,0 +1,18 @@
+html não é uma linguagem de programação - é uma linguagem de marcação - 
+ele é usasdaa para controlar a apresentação dos dados 
+é usado no VSCode e um web browser
+é a unica linguagem 
+
+! - inicio do código
+
+div - é uma divisão - em bloco
+    head/header - cabeçalho
+    section - sessão
+    footer - rodapé
+    span - é uma div de linha
+
+*As divisões principais tem um id
+
+h1/2/3... - Titulos
+p - paragrafo
+l - linha - l*5 - quantidade de linha
